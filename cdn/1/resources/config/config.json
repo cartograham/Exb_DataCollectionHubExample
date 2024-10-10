@@ -9,7 +9,7 @@
       },
       "isDefault": false,
       "isVisible": true,
-      "label": "Phase 0 Review",
+      "label": "HPMS Curve and Grade",
       "header": true,
       "icon": {
         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M13 6.133c0 .598-.28 1.46-.825 2.51-.53 1.02-1.247 2.102-1.981 3.102A45.718 45.718 0 0 1 8 14.492a48.01 48.01 0 0 1-2.194-2.747c-.734-1-1.451-2.081-1.98-3.102C3.28 7.593 3 6.731 3 6.133 3 3.277 5.26 1 8 1s5 2.277 5 5.133m1 0c0 2.685-3.768 7.311-5.332 9.115C8.258 15.722 8 16 8 16s-.258-.279-.668-.751C5.768 13.444 2 8.817 2 6.133 2 2.746 4.686 0 8 0s6 2.746 6 6.133M10 5.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0m1 0a3 3 0 1 1-6 0 3 3 0 0 1 6 0\" clip-rule=\"evenodd\"></path></svg>",
@@ -120,9 +120,9 @@
     "layout_0": {
       "type": "FIXED",
       "content": {
-        "0": {
+        "1": {
           "type": "WIDGET",
-          "widgetId": "widget_1",
+          "widgetId": "widget_533",
           "bbox": {
             "left": "0%",
             "right": "0%",
@@ -146,624 +146,7 @@
         }
       },
       "order": [
-        "0"
-      ]
-    },
-    "layout_1": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_6",
-          "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        }
-      },
-      "type": "FIXED",
-      "label": "First",
-      "order": [
-        "0"
-      ]
-    },
-    "layout_2": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_3",
-          "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
-          },
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        }
-      },
-      "type": "FIXED",
-      "label": "Second",
-      "order": [
-        "0"
-      ]
-    },
-    "layout_4": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_11",
-          "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        }
-      },
-      "type": "FIXED",
-      "label": "First",
-      "order": [
-        "0"
-      ]
-    },
-    "layout_5": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_5",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "0.0%",
-            "width": "100.0%",
-            "height": "100.0%"
-          },
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        }
-      },
-      "type": "FIXED",
-      "label": "Second",
-      "order": [
-        "0"
-      ]
-    },
-    "layout_6": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_10",
-          "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        }
-      },
-      "type": "FIXED",
-      "label": "First",
-      "order": [
-        "0"
-      ]
-    },
-    "layout_7": {
-      "content": {
-        "0": {
-          "type": "SECTION",
-          "sectionId": "section_1",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "14.0%",
-            "width": "100.0%",
-            "height": "86.0%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        },
-        "1": {
-          "type": "WIDGET",
-          "widgetId": "widget_12",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "83.4%",
-            "bottom": "3.1%",
-            "width": "100.0%",
-            "height": "13.5%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        },
-        "2": {
-          "type": "WIDGET",
-          "widgetId": "widget_20",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "83.2%",
-            "bottom": "11.5%",
-            "width": "100.0%",
-            "height": "5.3%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            }
-          }
-        }
-      },
-      "type": "FIXED",
-      "label": "Second",
-      "order": [
-        "0",
-        "1",
-        "2"
-      ]
-    },
-    "layout_10": {
-      "content": {},
-      "type": "FIXED",
-      "label": "Map FixedLayout",
-      "order": []
-    },
-    "layout_15": {
-      "type": "FIXED",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_23",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "0.0%",
-            "width": "100.0%",
-            "height": "100.0%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            }
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_18": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_24",
-          "bbox": {
-            "width": "500px",
-            "height": 47
-          }
-        },
-        "1": {
-          "type": "WIDGET",
-          "widgetId": "widget_25",
-          "bbox": {
-            "width": "360px",
-            "height": "70px"
-          }
-        },
-        "2": {
-          "type": "WIDGET",
-          "widgetId": "widget_26",
-          "bbox": {
-            "width": "501px",
-            "height": 248
-          }
-        },
-        "4": {
-          "type": "WIDGET",
-          "widgetId": "widget_28",
-          "bbox": {
-            "width": "300px",
-            "height": "258px"
-          }
-        },
-        "5": {
-          "type": "WIDGET",
-          "widgetId": "widget_52",
-          "bbox": {
-            "width": "300px",
-            "height": "347px"
-          }
-        },
-        "6": {
-          "type": "WIDGET",
-          "widgetId": "widget_53",
-          "bbox": {
-            "width": "501px",
-            "height": 16
-          }
-        },
-        "7": {
-          "type": "WIDGET",
-          "widgetId": "widget_63",
-          "bbox": {
-            "width": "501px",
-            "height": 60
-          }
-        }
-      },
-      "type": "COLUMN",
-      "label": "Default",
-      "order": [
-        "0",
-        "1",
-        "2",
-        "4",
-        "6",
-        "7",
-        "5"
-      ]
-    },
-    "layout_19": {
-      "type": "FIXED",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_29",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "0.0%",
-            "width": "100.0%",
-            "height": "100.0%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            }
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_20": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_30",
-          "bbox": {
-            "width": "500px",
-            "height": 47
-          }
-        },
-        "1": {
-          "type": "WIDGET",
-          "widgetId": "widget_31",
-          "bbox": {
-            "width": "360px",
-            "height": "70px"
-          }
-        },
-        "2": {
-          "type": "WIDGET",
-          "widgetId": "widget_32",
-          "bbox": {
-            "width": "500px",
-            "height": 160
-          }
-        },
-        "4": {
-          "type": "WIDGET",
-          "widgetId": "widget_60",
-          "bbox": {
-            "width": "300px",
-            "height": "347px"
-          }
-        },
-        "5": {
-          "type": "WIDGET",
-          "widgetId": "widget_61",
-          "bbox": {
-            "width": "501px",
-            "height": 16
-          }
-        },
-        "6": {
-          "type": "WIDGET",
-          "widgetId": "widget_66",
-          "bbox": {
-            "width": "501px",
-            "height": 62
-          }
-        }
-      },
-      "type": "COLUMN",
-      "label": "Default",
-      "order": [
-        "0",
-        "1",
-        "2",
-        "5",
-        "6",
-        "4"
-      ]
-    },
-    "layout_21": {
-      "type": "FIXED",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_35",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "0.0%",
-            "width": "100.0%",
-            "height": "100.0%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            }
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_22": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_36",
-          "bbox": {
-            "width": "500px",
-            "height": 59
-          }
-        },
-        "1": {
-          "type": "WIDGET",
-          "widgetId": "widget_37",
-          "bbox": {
-            "width": "360px",
-            "height": "70px"
-          }
-        },
-        "2": {
-          "type": "WIDGET",
-          "widgetId": "widget_38",
-          "bbox": {
-            "width": "500px",
-            "height": 179
-          }
-        },
-        "4": {
-          "type": "WIDGET",
-          "widgetId": "widget_59",
-          "bbox": {
-            "width": "300px",
-            "height": "347px"
-          }
-        },
-        "5": {
-          "type": "WIDGET",
-          "widgetId": "widget_62",
-          "bbox": {
-            "width": "501px",
-            "height": 15
-          }
-        },
-        "6": {
-          "type": "WIDGET",
-          "widgetId": "widget_65",
-          "bbox": {
-            "width": "501px",
-            "height": 59
-          }
-        }
-      },
-      "type": "COLUMN",
-      "label": "Default",
-      "order": [
-        "0",
-        "1",
-        "2",
-        "5",
-        "6",
-        "4"
-      ]
-    },
-    "layout_23": {
-      "type": "FIXED",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_41",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "0.0%",
-            "width": "100.0%",
-            "height": "100.0%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            }
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_24": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_42",
-          "bbox": {
-            "width": "500px",
-            "height": 47
-          }
-        },
-        "1": {
-          "type": "WIDGET",
-          "widgetId": "widget_43",
-          "bbox": {
-            "width": "500px",
-            "height": 46
-          }
-        },
-        "2": {
-          "type": "WIDGET",
-          "widgetId": "widget_44",
-          "bbox": {
-            "width": "501px",
-            "height": 213
-          }
-        },
-        "5": {
-          "type": "WIDGET",
-          "widgetId": "widget_56",
-          "bbox": {
-            "width": "501px",
-            "height": 16
-          }
-        },
-        "6": {
-          "type": "WIDGET",
-          "widgetId": "widget_57",
-          "bbox": {
-            "width": "300px",
-            "height": "347px"
-          }
-        },
-        "7": {
-          "type": "WIDGET",
-          "widgetId": "widget_64",
-          "bbox": {
-            "width": "501px",
-            "height": 61
-          }
-        }
-      },
-      "type": "COLUMN",
-      "label": "Default",
-      "order": [
-        "0",
-        "1",
-        "2",
-        "5",
-        "7",
-        "6"
+        "1"
       ]
     },
     "layout_118": {
@@ -827,10 +210,10 @@
           "widgetId": "widget_203",
           "bbox": {
             "left": "50%",
-            "right": "22.6%",
+            "right": "17.8%",
             "top": "50%",
             "bottom": "14.6%",
-            "width": "49.8%",
+            "width": "57.1%",
             "height": "70.7%"
           },
           "setting": {
@@ -861,10 +244,10 @@
           "bbox": {
             "left": "0.0%",
             "right": "94.6%",
-            "top": "0%",
-            "bottom": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.1%",
             "width": "5.4%",
-            "height": "84.1%"
+            "height": "99.9%"
           },
           "setting": {
             "autoProps": {
@@ -883,9 +266,9 @@
             "left": "86.6%",
             "right": "0.0%",
             "top": "0.0%",
-            "bottom": "30.80%",
+            "bottom": "0.0%",
             "width": "13.4%",
-            "height": "51.2%"
+            "height": "100.0%"
           },
           "setting": {
             "autoProps": {
@@ -2219,14 +1602,14 @@
         },
         "2": {
           "type": "WIDGET",
-          "widgetId": "widget_375",
+          "widgetId": "widget_532",
           "bbox": {
-            "left": "0.7%",
-            "right": "73.8%",
-            "top": "1.7%",
-            "bottom": "89.5%",
-            "width": "25.5%",
-            "height": "8.8%"
+            "left": "0.8%",
+            "right": "52.7%",
+            "top": "2.0%",
+            "bottom": "80.5%",
+            "width": "46.5%",
+            "height": "17.5%"
           },
           "setting": {
             "autoProps": {
@@ -2234,9 +1617,7 @@
               "right": true,
               "top": false,
               "bottom": true
-            },
-            "vCenter": false,
-            "hCenter": false
+            }
           }
         }
       },
@@ -3833,6 +3214,118 @@
         "9"
       ],
       "label": "Default"
+    },
+    "layout_255": {
+      "type": "GRID",
+      "order": [
+        "0",
+        "1",
+        "3",
+        "5"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": 58.449999999999996
+          },
+          "gridType": 3,
+          "parent": "2",
+          "widgetId": "widget_535"
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": 17.47
+          },
+          "parent": "6",
+          "gridType": 3,
+          "setting": {
+            "placeholderStyle": {
+              "background": {
+                "color": null,
+                "fillType": "fill"
+              },
+              "borderRadius": null,
+              "border": {
+                "color": null,
+                "type": "solid",
+                "width": "2px"
+              }
+            }
+          },
+          "widgetId": "widget_24"
+        },
+        "2": {
+          "gridType": 1,
+          "bbox": {
+            "width": 100
+          },
+          "children": [
+            "0",
+            "4"
+          ]
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": 75.57666666666667
+          },
+          "parent": "4",
+          "gridType": 3,
+          "widgetId": "widget_534"
+        },
+        "4": {
+          "gridType": 0,
+          "parent": "2",
+          "bbox": {
+            "width": 41.550000000000004
+          },
+          "children": [
+            "6",
+            "3"
+          ]
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_25",
+          "gridType": 3,
+          "parent": "6",
+          "bbox": {
+            "width": 25.189999999999998
+          }
+        },
+        "6": {
+          "gridType": 1,
+          "parent": "4",
+          "bbox": {
+            "width": 24.423333333333336
+          },
+          "children": [
+            "1",
+            "5",
+            "7"
+          ]
+        },
+        "7": {
+          "type": "WIDGET",
+          "widgetId": "widget_26",
+          "gridType": 3,
+          "parent": "6",
+          "bbox": {
+            "width": 57.34
+          }
+        }
+      },
+      "setting": {
+        "rootItem": "2"
+      },
+      "label": "Default"
+    },
+    "layout_256": {
+      "content": {},
+      "type": "FIXED",
+      "label": "Map FixedLayout"
     }
   },
   "exbVersion": "1.14.0",
@@ -3843,780 +3336,12 @@
   },
   "template": "blankfullscreen",
   "widgets": {
-    "widget_1": {
-      "uri": "widgets/layout/sidebar/",
-      "version": "1.14.0",
-      "label": "Sidebar",
-      "config": {
-        "direction": "HORIZONTAL",
-        "collapseSide": "FIRST",
-        "overlay": false,
-        "size": "354px",
-        "divider": {
-          "visible": true,
-          "lineStyle": {
-            "type": "solid",
-            "color": "var(--light-500)",
-            "width": "1px"
-          }
-        },
-        "resizable": true,
-        "toggleBtn": {
-          "visible": true,
-          "iconSource": 0,
-          "icon": "LEFT",
-          "offsetX": 15,
-          "offsetY": 0,
-          "position": "CENTER",
-          "iconSize": 14,
-          "width": 15,
-          "height": 40,
-          "border": {
-            "type": "solid",
-            "color": "var(--light-500)",
-            "width": "1px"
-          },
-          "color": {
-            "normal": {
-              "icon": {
-                "useTheme": false,
-                "color": "var(--black)"
-              },
-              "bg": {
-                "useTheme": true,
-                "color": "var(--light)"
-              }
-            },
-            "hover": {
-              "bg": {
-                "useTheme": true,
-                "color": "var(--light)"
-              }
-            }
-          },
-          "expandStyle": {
-            "style": {
-              "borderRadius": "0 4px 4px 0"
-            }
-          },
-          "collapseStyle": {
-            "style": {
-              "borderRadius": "0 4px 4px 0"
-            }
-          },
-          "template": "rect"
-        },
-        "defaultState": 1
-      },
-      "id": "widget_1",
-      "layouts": {
-        "FIRST": {
-          "LARGE": "layout_1"
-        },
-        "SECOND": {
-          "LARGE": "layout_2"
-        }
-      }
-    },
-    "widget_3": {
-      "uri": "widgets/layout/sidebar/",
-      "version": "1.14.0",
-      "label": "Sidebar 2",
-      "config": {
-        "direction": "VERTICAL",
-        "collapseSide": "SECOND",
-        "overlay": false,
-        "size": "300px",
-        "divider": {
-          "visible": true,
-          "lineStyle": {
-            "type": "solid",
-            "color": "var(--light-500)",
-            "width": "1px"
-          }
-        },
-        "resizable": true,
-        "toggleBtn": {
-          "visible": true,
-          "iconSource": 0,
-          "icon": "DOWN",
-          "offsetX": 0,
-          "offsetY": -15,
-          "position": "CENTER",
-          "iconSize": 14,
-          "width": 40,
-          "height": 15,
-          "border": {
-            "type": "solid",
-            "color": "var(--light-500)",
-            "width": "1px"
-          },
-          "color": {
-            "normal": {
-              "icon": {
-                "useTheme": false,
-                "color": "var(--black)"
-              },
-              "bg": {
-                "useTheme": true,
-                "color": "var(--light)"
-              }
-            },
-            "hover": {
-              "bg": {
-                "useTheme": true,
-                "color": "var(--light)"
-              }
-            }
-          },
-          "expandStyle": {
-            "style": {
-              "borderRadius": "4px 4px 0 0"
-            }
-          },
-          "collapseStyle": {
-            "style": {
-              "borderRadius": "4px 4px 0 0"
-            }
-          },
-          "template": "rect"
-        },
-        "defaultState": 1
-      },
-      "id": "widget_3",
-      "layouts": {
-        "FIRST": {
-          "LARGE": "layout_4"
-        },
-        "SECOND": {
-          "LARGE": "layout_5"
-        }
-      }
-    },
-    "widget_5": {
-      "uri": "widgets/common/table/",
-      "version": "1.14.0",
-      "label": "Table",
-      "config": {
-        "layersConfig": [
-          {
-            "id": "dataSource_1-POC_Demo_v3_LAYERS_6081-1",
-            "name": "Number Of Through Lanes",
-            "useDataSource": {
-              "dataSourceId": "dataSource_1-POC_Demo_v3_LAYERS_6081",
-              "mainDataSourceId": "dataSource_1-POC_Demo_v3_LAYERS_6081",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "Asset_Ln_Begin_Dfo_Ms",
-                "Asset_Ln_End_Dfo_Ms",
-                "Asset_Nm",
-                "Id",
-                "Nbr_Thru_Lane_Cnt",
-                "Rdbd_Gmtry_Ln_Id",
-                "Rte_Defn_Ln_Nm"
-              ]
-            },
-            "allFields": [
-              {
-                "jimuName": "OBJECTID",
-                "name": "OBJECTID",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeOID",
-                "alias": "OBJECTID",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Asset_Ln_Begin_Dfo_Ms",
-                "name": "Asset_Ln_Begin_Dfo_Ms",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Asset Ln Begin Dfo Ms",
-                "format": {
-                  "digitSeparator": true,
-                  "places": 2
-                }
-              },
-              {
-                "jimuName": "Asset_Ln_End_Dfo_Ms",
-                "name": "Asset_Ln_End_Dfo_Ms",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Asset Ln End Dfo Ms",
-                "format": {
-                  "digitSeparator": true,
-                  "places": 2
-                }
-              },
-              {
-                "jimuName": "Asset_Nm",
-                "name": "Asset_Nm",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Asset Nm",
-                "format": null
-              },
-              {
-                "jimuName": "Id",
-                "name": "Id",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Id",
-                "format": null
-              },
-              {
-                "jimuName": "Nbr_Thru_Lane_Cnt",
-                "name": "Nbr_Thru_Lane_Cnt",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Nbr Thru Lane Cnt",
-                "format": {
-                  "digitSeparator": true,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Rdbd_Gmtry_Ln_Id",
-                "name": "Rdbd_Gmtry_Ln_Id",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Rdbd Gmtry Ln Id",
-                "format": {
-                  "digitSeparator": true,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Rte_Defn_Ln_Nm",
-                "name": "Rte_Defn_Ln_Nm",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Rte Defn Ln Nm",
-                "format": null
-              },
-              {
-                "jimuName": "Shape__Length",
-                "name": "Shape__Length",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Shape__Length",
-                "format": {
-                  "digitSeparator": true,
-                  "places": 2
-                }
-              }
-            ],
-            "tableFields": [
-              {
-                "jimuName": "Asset_Ln_Begin_Dfo_Ms",
-                "name": "Asset_Ln_Begin_Dfo_Ms",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Asset Ln Begin Dfo Ms",
-                "format": {
-                  "digitSeparator": true,
-                  "places": 2
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Asset_Ln_End_Dfo_Ms",
-                "name": "Asset_Ln_End_Dfo_Ms",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Asset Ln End Dfo Ms",
-                "format": {
-                  "digitSeparator": true,
-                  "places": 2
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Asset_Nm",
-                "name": "Asset_Nm",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Asset Nm",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": false
-              },
-              {
-                "jimuName": "Id",
-                "name": "Id",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Id",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Nbr_Thru_Lane_Cnt",
-                "name": "Nbr_Thru_Lane_Cnt",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Nbr Thru Lane Cnt",
-                "format": {
-                  "digitSeparator": true,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Rdbd_Gmtry_Ln_Id",
-                "name": "Rdbd_Gmtry_Ln_Id",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeInteger",
-                "alias": "Rdbd Gmtry Ln Id",
-                "format": {
-                  "digitSeparator": true,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              },
-              {
-                "jimuName": "Rte_Defn_Ln_Nm",
-                "name": "Rte_Defn_Ln_Nm",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Rte Defn Ln Nm",
-                "format": null,
-                "editAuthority": true,
-                "editable": true,
-                "visible": true
-              }
-            ],
-            "enableAttachements": false,
-            "enableEdit": false,
-            "allowCsv": false,
-            "enableSearch": true,
-            "searchFields": [
-              "Rte_Defn_Ln_Nm",
-              "Id"
-            ],
-            "enableRefresh": true,
-            "enableSelect": true,
-            "selectMode": "SINGLE",
-            "headerFontSetting": {
-              "backgroundColor": "",
-              "fontSize": 14,
-              "bold": false,
-              "color": ""
-            },
-            "layerHonorMode": "CUSTOM"
-          }
-        ],
-        "arrangeType": "TABS"
-      },
-      "id": "widget_5",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_1-POC_Demo_v3_LAYERS_6081",
-          "mainDataSourceId": "dataSource_1-POC_Demo_v3_LAYERS_6081",
-          "rootDataSourceId": "dataSource_1",
-          "fields": [
-            "Asset_Ln_Begin_Dfo_Ms",
-            "Asset_Ln_End_Dfo_Ms",
-            "Asset_Nm",
-            "Id",
-            "Nbr_Thru_Lane_Cnt",
-            "Rdbd_Gmtry_Ln_Id",
-            "Rte_Defn_Ln_Nm"
-          ]
-        }
-      ],
-      "dataActions": {
-        "showOnMap": {
-          "config": {
-            "isUseCustomSymbol": true,
-            "symbolOption": {
-              "pointSymbol": {
-                "type": "esriSMS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "angle": 0,
-                "xoffset": 0,
-                "yoffset": 0,
-                "size": 12,
-                "style": "esriSMSCircle",
-                "outline": {
-                  "type": "esriSLS",
-                  "color": [
-                    255,
-                    255,
-                    0,
-                    150
-                  ],
-                  "width": 1,
-                  "style": "esriSLSSolid"
-                }
-              },
-              "polylineSymbol": {
-                "type": "esriSLS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "width": 0.75,
-                "style": "esriSLSSolid"
-              },
-              "polygonSymbol": {
-                "type": "esriSFS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "outline": {
-                  "type": "esriSLS",
-                  "color": [
-                    255,
-                    255,
-                    0,
-                    150
-                  ],
-                  "width": 1,
-                  "style": "esriSLSSolid"
-                },
-                "style": "esriSFSSolid"
-              }
-            }
-          }
-        }
-      }
-    },
-    "widget_6": {
-      "uri": "widgets/layout/sidebar/",
-      "version": "1.14.0",
-      "label": "Sidebar 3",
-      "config": {
-        "direction": "VERTICAL",
-        "collapseSide": "SECOND",
-        "overlay": false,
-        "size": "403px",
-        "divider": {
-          "visible": true,
-          "lineStyle": {
-            "type": "solid",
-            "color": "var(--light-500)",
-            "width": "1px"
-          }
-        },
-        "resizable": true,
-        "toggleBtn": {
-          "visible": true,
-          "iconSource": 0,
-          "icon": "DOWN",
-          "offsetX": 0,
-          "offsetY": -15,
-          "position": "CENTER",
-          "iconSize": 14,
-          "width": 40,
-          "height": 15,
-          "border": {
-            "type": "solid",
-            "color": "var(--light-500)",
-            "width": "1px"
-          },
-          "color": {
-            "normal": {
-              "icon": {
-                "useTheme": false,
-                "color": "var(--black)"
-              },
-              "bg": {
-                "useTheme": true,
-                "color": "var(--light)"
-              }
-            },
-            "hover": {
-              "bg": {
-                "useTheme": true,
-                "color": "var(--light)"
-              }
-            }
-          },
-          "expandStyle": {
-            "style": {
-              "borderRadius": "4px 4px 0 0"
-            }
-          },
-          "collapseStyle": {
-            "style": {
-              "borderRadius": "4px 4px 0 0"
-            }
-          },
-          "template": "rect"
-        },
-        "defaultState": 1
-      },
-      "id": "widget_6",
-      "layouts": {
-        "FIRST": {
-          "LARGE": "layout_6"
-        },
-        "SECOND": {
-          "LARGE": "layout_7"
-        }
-      }
-    },
-    "widget_10": {
-      "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.14.0",
-      "label": "Map",
-      "config": {
-        "toolConfig": {
-          "canZoom": true,
-          "canHome": true,
-          "canSearch": true,
-          "canNavigation": true,
-          "canLayers": true
-        },
-        "isUseCustomMapState": true,
-        "initialMapState": {
-          "viewPoint": {
-            "rotation": 0,
-            "scale": 4513.9887055,
-            "targetGeometry": {
-              "spatialReference": {
-                "latestWkid": 3857,
-                "wkid": 102100
-              },
-              "x": -10877205.171098424,
-              "y": 3544928.32801697
-            }
-          },
-          "extent": {
-            "spatialReference": {
-              "latestWkid": 3857,
-              "wkid": 102100
-            },
-            "xmin": -10877415.372926215,
-            "ymin": 3544719.320517747,
-            "xmax": -10876994.969270634,
-            "ymax": 3545137.3355161925
-          },
-          "rotation": 0,
-          "viewType": "2d"
-        },
-        "initialMapDataSourceID": "dataSource_2",
-        "clientQueryDataSourceIds": [],
-        "layoutIndex": 0
-      },
-      "id": "widget_10",
-      "layouts": {
-        "MapFixedLayout": {
-          "LARGE": "layout_10"
-        }
-      },
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_2",
-          "mainDataSourceId": "dataSource_2"
-        }
-      ]
-    },
-    "widget_11": {
-      "uri": "widgets/StreetSmart-ExB/",
-      "version": "1.13.0",
-      "config": {
-        "exampleConfigProperty": "test",
-        "token": "amtnX3R4ZG90OmpATUZzWjUrSnckcEMpP3M=",
-        "locale": "en-US",
-        "atlasHost": "https://atlasapi.cyclomedia.com/api",
-        "agreement": true,
-        "measurement": "",
-        "overlay": "",
-        "navigation": true,
-        "username": "",
-        "units": "default",
-        "scale": "1130",
-        "toggleAll": true,
-        "overlays": true,
-        "showStreetName": true,
-        "saveMeasurements": true,
-        "timetravel": true,
-        "linkMapMove": false,
-        "allowEditing": false,
-        "buttonVisibility": {
-          "OVERLAYS": true,
-          "ELEVATION": true,
-          "REPORT_BLURRING": true,
-          "OPEN_OBLIQUE": false,
-          "OPEN_POINTCLOUD": true,
-          "MEASURE": true,
-          "SAVE_IMAGE": true,
-          "IMAGE_INFORMATION": true
-        },
-        "srs": "EPSG:3081",
-        "coverage": true,
-        "linkLayers": true
-      },
-      "id": "widget_11",
-      "useMapWidgetIds": [
-        "widget_10"
-      ]
-    },
-    "widget_12": {
-      "uri": "widgets/common/navigator/",
-      "version": "1.14.0",
-      "label": "Views Navigation",
-      "config": {
-        "data": {
-          "type": "AUTO",
-          "section": "section_1",
-          "views": [
-            "view_4",
-            "view_7",
-            "view_6",
-            "view_5"
-          ]
-        },
-        "display": {
-          "type": "nav",
-          "navStyle": "pills",
-          "standard": {
-            "gap": "0px",
-            "scrollable": true,
-            "showIcon": false,
-            "showText": true,
-            "iconPosition": "start",
-            "textAlign": "center"
-          },
-          "vertical": false,
-          "advanced": true,
-          "variant": {
-            "size": {
-              "fontSize": "0.875rem",
-              "lineHeight": 1.5,
-              "paddingX": "1rem",
-              "paddingY": "0.25rem"
-            },
-            "gutter": "0.25rem",
-            "icon": {
-              "spacing": "0.5rem"
-            },
-            "root": {
-              "borderRadius": "50rem"
-            },
-            "item": {
-              "default": {
-                "color": "#181818",
-                "border": {
-                  "width": "0px"
-                },
-                "borderRadius": "6.25rem",
-                "icon": {
-                  "size": "16px"
-                },
-                "size": "14px"
-              },
-              "hover": {
-                "color": "var(--dark)",
-                "borderRadius": "6.25rem",
-                "icon": {
-                  "color": "var(--primary)",
-                  "size": "16px"
-                },
-                "size": "14px",
-                "bg": "var(--info-200)"
-              },
-              "active": {
-                "color": "#fff",
-                "bg": "#076fe5",
-                "borderRadius": "6.25rem",
-                "icon": {
-                  "color": "var(--white)",
-                  "size": "16px"
-                },
-                "size": "14px"
-              },
-              "disabled": {
-                "color": "#989898",
-                "shadow": "none",
-                "borderRadius": "50rem"
-              }
-            }
-          }
-        }
-      },
-      "id": "widget_12"
-    },
-    "widget_20": {
-      "uri": "widgets/common/divider/",
-      "version": "1.14.0",
-      "label": "Divider",
-      "config": {
-        "direction": "Horizontal",
-        "strokeStyle": {
-          "type": "Style0",
-          "color": "#050505",
-          "size": "1px"
-        },
-        "pointStart": {
-          "pointStyle": "None",
-          "pointSize": 4
-        },
-        "pointEnd": {
-          "pointStyle": "None",
-          "pointSize": 4
-        },
-        "themeStyle": {
-          "quickStyleType": "None"
-        }
-      },
-      "id": "widget_20"
-    },
-    "widget_23": {
-      "uri": "widgets/layout/column/",
-      "version": "1.14.0",
-      "label": "Column 3",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "space": [
-              10
-            ],
-            "unit": "px"
-          },
-          "justifyContent": "flex-start",
-          "alignItems": "stretch"
-        }
-      },
-      "id": "widget_23",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_18"
-        }
-      }
-    },
     "widget_24": {
       "uri": "widgets/common/text/",
       "version": "1.14.0",
       "label": "Text 8",
       "config": {
-        "text": "<p><span style=\"font-size: 28px;\">Number of Through Lanes</span></p>",
+        "text": "<p><span style=\"font-size: 28px;\">HPMS Curve Classes</span></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -4630,7 +3355,7 @@
       "version": "1.14.0",
       "label": "Text 9",
       "config": {
-        "text": "<p><strong>Summary</strong>:  </p><p>Number of through lanes is to be derived by the striping, if present, on multilane facilities for each roadbed\t</p>",
+        "text": "<p><strong>Summary</strong>:  </p><p>Curve will be delivered as a polygon feature encompassing the entire travel area of the roadway. A new polygon will be started anytime the curve radius changes by more than 5% or if 1/10th of a mile has been reached.</p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -4644,7 +3369,7 @@
       "version": "1.14.0",
       "label": "Text 10",
       "config": {
-        "text": "<p><strong>Detailed Guidance: </strong> </p><p>Exclude all ramps and sections defined as auxiliary lanes, such as:</p><p>• Parking and dedicated turning lanes</p><p>• Toll collection lanes</p><p>• Truck climbing lanes</p><p>• Shoulders</p><p>• Continuous Center Turn Lanes</p><p>• Acceleration/Deceleration Lanes</p><p><br></p><p>A lane that exists as a weaving lane/auxiliary lane that exists for both entering and exiting a highway, and the distance from painted gore to painted gore is 0.3 miles or greater in length, is to be considered a through lane. See image below for clarification</p>",
+        "text": "<p><strong>Additional Info: </strong> </p><p>This product uses the LiDAR-based extracted attributes from our Edge of Travel dataset to ascertain the roadway curvature.</p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -4652,1346 +3377,6 @@
         }
       },
       "id": "widget_26"
-    },
-    "widget_28": {
-      "uri": "widgets/common/image/",
-      "version": "1.14.0",
-      "label": "Image",
-      "config": {
-        "functionConfig": {
-          "altText": "",
-          "toolTip": "",
-          "linkParam": {},
-          "scale": "Fit",
-          "imageParam": {
-            "url": "${appResourceUrl}/images/widget_28/1719690195407.png",
-            "originalUrl": "${appResourceUrl}/images/widget_28/1719690195407.png",
-            "fileName": "1719690195407.png",
-            "originalName": "TxDOT_Aux_ThroughLanes.png",
-            "imgSourceType": "BY_UPLOAD",
-            "fileFormat": "image/png",
-            "originalId": "1719690195407",
-            "isUseCompress": false,
-            "originalWidth": 934,
-            "originalHeight": 359
-          },
-          "imageDisplayQualityMode": "ORIGINAL",
-          "imgSourceType": "",
-          "srcExpression": null
-        },
-        "styleConfig": {}
-      },
-      "id": "widget_28"
-    },
-    "widget_29": {
-      "uri": "widgets/layout/column/",
-      "version": "1.14.0",
-      "label": "Column 4",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "space": [
-              10
-            ],
-            "unit": "px"
-          },
-          "justifyContent": "flex-start",
-          "alignItems": "stretch"
-        }
-      },
-      "id": "widget_29",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_20"
-        }
-      }
-    },
-    "widget_30": {
-      "uri": "widgets/common/text/",
-      "version": "1.14.0",
-      "label": "Text 12",
-      "config": {
-        "text": "<p><span style=\"font-size: 28px;\">Outside Shoulder Width</span></p>",
-        "placeholder": "Double click to edit text",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_30"
-    },
-    "widget_31": {
-      "uri": "widgets/common/text/",
-      "version": "1.14.0",
-      "label": "Text 13",
-      "config": {
-        "text": "<p><strong>Summary</strong>:  </p><p>Outside shoulder is considered the shoulder on the driver’s right when moving in the direction of travel.</p>",
-        "placeholder": "Double click to edit text",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_31"
-    },
-    "widget_32": {
-      "uri": "widgets/common/text/",
-      "version": "1.14.0",
-      "label": "Text 14",
-      "config": {
-        "text": "<p><strong>Detailed Guidance: </strong> </p><ul><li>For undivided roadways, which are only represented by a Single Roadbed, the Outside Shoulder is on the driver’s right and the direction of travel is determined by the ascending direction of M-values embedded in the linework of the provided feature class</li><li>Outside shoulder width should be measured to the nearest foot starting from the outer edge of the right-most through lane to the outer edge of the shoulder</li><li>Do not include parking or bicycle lanes in the shoulder width measurement</li></ul>",
-        "placeholder": "Double click to edit text",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_32"
-    },
-    "widget_35": {
-      "uri": "widgets/layout/column/",
-      "version": "1.14.0",
-      "label": "Column 5",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "space": [
-              10
-            ],
-            "unit": "px"
-          },
-          "justifyContent": "flex-start",
-          "alignItems": "stretch"
-        }
-      },
-      "id": "widget_35",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_22"
-        }
-      }
-    },
-    "widget_36": {
-      "uri": "widgets/common/text/",
-      "version": "1.14.0",
-      "label": "Text 16",
-      "config": {
-        "text": "<p><br></p><p><span style=\"font-size: 28px;\">Inside Shoulder Width</span></p>",
-        "placeholder": "Double click to edit text",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_36"
-    },
-    "widget_37": {
-      "uri": "widgets/common/text/",
-      "version": "1.14.0",
-      "label": "Text 17",
-      "config": {
-        "text": "<p><strong>Summary</strong>:  </p><p>Inside shoulder is considered the shoulder on the driver’s left when moving in the direction of travel</p>",
-        "placeholder": "Double click to edit text",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_37"
-    },
-    "widget_38": {
-      "uri": "widgets/common/text/",
-      "version": "1.14.0",
-      "label": "Text 18",
-      "config": {
-        "text": "<p><strong>Detailed Guidance: </strong> </p><p>For undivided roadways, which are only represented by a Single Roadbed, the Inside Shoulder is on the driver’s left and the direction of travel is determined by the ascending direction of M-values embedded in the linework of the provided feature class.</p><p><br></p><ul><li>Inside shoulder width should be measured to the nearest foot starting from the outer edge of the left-most lane to the left-most edge of the shoulder</li><li>Do not include parking or bicycle lanes in the shoulder width measurement</li></ul>",
-        "placeholder": "Double click to edit text",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_38"
-    },
-    "widget_41": {
-      "uri": "widgets/layout/column/",
-      "version": "1.14.0",
-      "label": "Column 6",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "space": [
-              10
-            ],
-            "unit": "px"
-          },
-          "justifyContent": "flex-start",
-          "alignItems": "stretch"
-        }
-      },
-      "id": "widget_41",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_24"
-        }
-      }
-    },
-    "widget_42": {
-      "uri": "widgets/common/text/",
-      "version": "1.14.0",
-      "label": "Text 20",
-      "config": {
-        "text": "<p><span style=\"font-size: 28px;\">Maximum Speed Limit</span></p>",
-        "placeholder": "Double click to edit text",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_42"
-    },
-    "widget_43": {
-      "uri": "widgets/common/text/",
-      "version": "1.14.0",
-      "label": "Text 21",
-      "config": {
-        "text": "<p><strong>Summary</strong>:  </p><p>Maximum Speed Limit is based on the posted speed limit along the roadway</p>",
-        "placeholder": "Double click to edit text",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_43"
-    },
-    "widget_44": {
-      "uri": "widgets/common/text/",
-      "version": "1.14.0",
-      "label": "Text 22",
-      "config": {
-        "text": "<p><strong>Detailed Guidance: </strong> </p><p>• The Maximum Speed Limit will be recorded from the posted speed limit sign and continue until the next posted speed limit sign of a different speed limit along the same roadbed. </p><p><br></p><p>• For undivided roadways, which are only represented by a Single Roadbed, that have different posted speed limits for each side of the roadway, the posted speed limit for the route’s direction of travel is to be used</p><p><br></p><p>• Direction of travel is determined by the ascending direction of M-values embedded in the linework of the provided feature class</p>",
-        "placeholder": "Double click to edit text",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_44"
-    },
-    "widget_52": {
-      "uri": "widgets/survey123/",
-      "version": "1.14.0",
-      "label": "Survey 5",
-      "config": {
-        "surveyItemId": "de8cb8448d344c29be5b408b9836f21a",
-        "portalUrl": "",
-        "embeds": [
-          "fullScreen",
-          "onSubmitted"
-        ],
-        "hides": [
-          "navbar",
-          "header",
-          "description",
-          "footer",
-          "theme"
-        ],
-        "mode": "new",
-        "activeLinkData": true,
-        "layerViewInfo": {
-          "dataSourceId": "dataSource_2-POC_Demo_v3_GDB_4268",
-          "mainDataSourceId": "dataSource_2-POC_Demo_v3_GDB_4268",
-          "rootDataSourceId": "dataSource_2"
-        },
-        "fieldQuestionMapping": [
-          {
-            "field": "Asset_Nm",
-            "question": "FeatureType"
-          },
-          {
-            "field": "Id",
-            "question": "FeatureUID"
-          },
-          {
-            "field": "geometry",
-            "question": "Location"
-          }
-        ],
-        "selectedSurvey": {
-          "id": "de8cb8448d344c29be5b408b9836f21a",
-          "owner": "jgraham_ss",
-          "title": "TxDOT Asset Data Feedback (linear)",
-          "created": 1719611195000,
-          "description": "\n<p style=' margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;'>This form is meant for DOT and Cyclomedia staff to submit feedback on asset data extraction projects.  </p>",
-          "thumbnail": "https://streetsmart.maps.arcgis.com/sharing/rest/content/items/de8cb8448d344c29be5b408b9836f21a/info/thumbnail/assetdatareview_line.png?token=3NKHt6i2urmWtqOuugvr9SJUkzM-c9R3fYs_5ZKl-RZSrZCX09HiEzy9taLYtk30NvRTPs44mlp9l0Kl3BcIRyn5JpZNd2xRa8DqQByfu3wYXZ1II81xPjrfe4B66Fp85AHU8fZGN5U0zHQXcfs904kh39vE29SNRQtrrFv3yx51UB7YQFKlloMIBl6oScR89TV1TEyyDyPQagDtzU9FmKrB0ODDw2XacuJrqhtzrT4.",
-          "snippet": "The asset data feedback survey pertaining to linear GIS extracted features.  ",
-          "formItemInfo": {
-            "typeKeywords": [
-              "Form",
-              "Survey123",
-              "Survey123 Connect",
-              "xForm"
-            ],
-            "id": "de8cb8448d344c29be5b408b9836f21a",
-            "owner": "jgraham_ss",
-            "created": 1719611195000,
-            "isOrgItem": true,
-            "modified": 1720211661000,
-            "guid": null,
-            "name": "assetdatareview_line.zip",
-            "title": "TxDOT Asset Data Feedback (linear)",
-            "type": "Form",
-            "description": "\n<p style=' margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;'>This form is meant for DOT and Cyclomedia staff to submit feedback on asset data extraction projects.  </p>",
-            "tags": [],
-            "snippet": "The asset data feedback survey pertaining to linear GIS extracted features.  ",
-            "thumbnail": "thumbnail/assetdatareview_line.png",
-            "documentation": null,
-            "extent": [],
-            "categories": [],
-            "spatialReference": null,
-            "accessInformation": null,
-            "classification": null,
-            "licenseInfo": null,
-            "culture": "en-us",
-            "properties": {
-              "connectVersion": "3.20.63"
-            },
-            "advancedSettings": null,
-            "url": null,
-            "proxyFilter": null,
-            "access": "shared",
-            "size": -1,
-            "subInfo": 0,
-            "appCategories": [],
-            "industries": [],
-            "languages": [],
-            "largeThumbnail": null,
-            "banner": null,
-            "screenshots": [],
-            "listed": false,
-            "ownerFolder": "664e5e58b8734cf3975517291cfd84ee",
-            "protected": false,
-            "numComments": 0,
-            "numRatings": 0,
-            "avgRating": 0,
-            "numViews": 3,
-            "scoreCompleteness": 61,
-            "groupDesignations": null,
-            "apiToken1ExpirationDate": -1,
-            "apiToken2ExpirationDate": -1,
-            "contentOrigin": "self",
-            "lastViewed": 1720209600000
-          },
-          "form": {
-            "layerName": "survey",
-            "portalUrl": "https://www.arcgis.com",
-            "questions": [],
-            "version": "3.19",
-            "themes": [
-              {
-                "id": null,
-                "name": "theme-color1",
-                "isEnabled": true,
-                "header": {
-                  "backgroundColor": "#31872E",
-                  "textColor": "#ffffff"
-                },
-                "form": {
-                  "backgroundColor": "#ffffff",
-                  "backgroundOpacity": 1,
-                  "textColor": "#505050",
-                  "primaryColor": "#31872E",
-                  "primaryTextColor": "#ffffff",
-                  "inputTextColor": "#505050",
-                  "inputBackgroundColor": "#ffffff"
-                },
-                "webpage": {
-                  "backgroundColor": "#B7DCC7"
-                }
-              }
-            ],
-            "locales": [
-              {
-                "code": "en-us",
-                "label": "English-US",
-                "isDefault": true
-              }
-            ],
-            "settings": {
-              "openStatusInfo": {
-                "status": "open",
-                "schedule": {
-                  "start": null,
-                  "end": null
-                },
-                "closedStatusContent": ""
-              },
-              "thankYouScreenContent": "",
-              "recordStartEndTime": {
-                "isEnabled": false,
-                "fieldInfos": []
-              },
-              "notificationsInfo": {},
-              "isVersionLocked": true,
-              "multiSubmissionInfo": {
-                "autoReload": -1,
-                "maxAllowed": 0,
-                "showSubmitAnotherTip": false,
-                "redirectUrl": ""
-              },
-              "draftInfo": {
-                "isEnabled": false
-              },
-              "captcha": {
-                "isEnabled": false,
-                "content": ""
-              }
-            },
-            "submit": {},
-            "header": {
-              "isVisible": true,
-              "content": ""
-            },
-            "subHeader": {
-              "isVisible": true,
-              "content": ""
-            },
-            "footer": {
-              "isVisible": true,
-              "content": ""
-            }
-          },
-          "report": {
-            "templateItems": []
-          },
-          "featureService": {
-            "source": {
-              "isNonHostedFeatureService": false,
-              "itemId": "",
-              "url": "",
-              "isView": false,
-              "isRelatedToFormItem": false
-            },
-            "fieldworker": {
-              "isView": true,
-              "isNonHostedFeatureService": false,
-              "itemId": "",
-              "url": "",
-              "isRelatedToFormItem": false
-            },
-            "stakeholder": {
-              "isView": true,
-              "isNonHostedFeatureService": false,
-              "itemId": "",
-              "url": "",
-              "isRelatedToFormItem": false
-            }
-          },
-          "value": "de8cb8448d344c29be5b408b9836f21a",
-          "label": "TxDOT Asset Data Feedback (linear)"
-        }
-      },
-      "id": "widget_52",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_2-POC_Demo_v3_GDB_4268",
-          "mainDataSourceId": "dataSource_2-POC_Demo_v3_GDB_4268",
-          "rootDataSourceId": "dataSource_2"
-        }
-      ]
-    },
-    "widget_53": {
-      "uri": "widgets/common/divider/",
-      "version": "1.14.0",
-      "label": "Divider 2",
-      "config": {
-        "direction": "Horizontal",
-        "strokeStyle": {
-          "type": "Style1",
-          "color": "var(--dark)",
-          "size": "2px"
-        },
-        "pointStart": {
-          "pointStyle": "None",
-          "pointSize": 3
-        },
-        "pointEnd": {
-          "pointStyle": "None",
-          "pointSize": 3
-        },
-        "themeStyle": {
-          "quickStyleType": "Default"
-        }
-      },
-      "id": "widget_53"
-    },
-    "widget_56": {
-      "uri": "widgets/common/divider/",
-      "version": "1.14.0",
-      "label": "Divider 5",
-      "config": {
-        "direction": "Horizontal",
-        "strokeStyle": {
-          "type": "Style6",
-          "color": "#181818",
-          "size": "2px"
-        },
-        "pointStart": {
-          "pointStyle": "None",
-          "pointSize": 4
-        },
-        "pointEnd": {
-          "pointStyle": "None",
-          "pointSize": 4
-        },
-        "themeStyle": {
-          "quickStyleType": "None"
-        }
-      },
-      "id": "widget_56"
-    },
-    "widget_57": {
-      "uri": "widgets/survey123/",
-      "version": "1.14.0",
-      "label": "Survey 6",
-      "config": {
-        "surveyItemId": "de8cb8448d344c29be5b408b9836f21a",
-        "portalUrl": "",
-        "embeds": [
-          "fullScreen",
-          "onSubmitted"
-        ],
-        "hides": [
-          "navbar",
-          "header",
-          "description",
-          "footer",
-          "theme"
-        ],
-        "mode": "new",
-        "activeLinkData": true,
-        "layerViewInfo": {
-          "dataSourceId": "dataSource_2-POC_Demo_v3_GDB_4268",
-          "mainDataSourceId": "dataSource_2-POC_Demo_v3_GDB_4268",
-          "rootDataSourceId": "dataSource_2"
-        },
-        "fieldQuestionMapping": [
-          {
-            "field": "Asset_Nm",
-            "question": "FeatureType"
-          },
-          {
-            "field": "Id",
-            "question": "FeatureUID"
-          },
-          {
-            "field": "geometry",
-            "question": "Location"
-          }
-        ],
-        "selectedSurvey": {
-          "id": "de8cb8448d344c29be5b408b9836f21a",
-          "owner": "jgraham_ss",
-          "title": "TxDOT Asset Data Feedback (linear)",
-          "created": 1719611195000,
-          "description": "\n<p style=' margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;'>This form is meant for DOT and Cyclomedia staff to submit feedback on asset data extraction projects.  </p>",
-          "thumbnail": "https://streetsmart.maps.arcgis.com/sharing/rest/content/items/de8cb8448d344c29be5b408b9836f21a/info/thumbnail/assetdatareview_line.png?token=3NKHt6i2urmWtqOuugvr9SJUkzM-c9R3fYs_5ZKl-RZSrZCX09HiEzy9taLYtk30NvRTPs44mlp9l0Kl3BcIRyn5JpZNd2xRa8DqQByfu3wYXZ1II81xPjrfe4B66Fp85AHU8fZGN5U0zHQXcfs904kh39vE29SNRQtrrFv3yx51UB7YQFKlloMIBl6oScR89TV1TEyyDyPQagDtzU9FmKrB0ODDw2XacuJrqhtzrT4.",
-          "snippet": "The asset data feedback survey pertaining to linear GIS extracted features.  ",
-          "formItemInfo": {
-            "typeKeywords": [
-              "Form",
-              "Survey123",
-              "Survey123 Connect",
-              "xForm"
-            ],
-            "id": "de8cb8448d344c29be5b408b9836f21a",
-            "owner": "jgraham_ss",
-            "created": 1719611195000,
-            "isOrgItem": true,
-            "modified": 1720211661000,
-            "guid": null,
-            "name": "assetdatareview_line.zip",
-            "title": "TxDOT Asset Data Feedback (linear)",
-            "type": "Form",
-            "description": "\n<p style=' margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;'>This form is meant for DOT and Cyclomedia staff to submit feedback on asset data extraction projects.  </p>",
-            "tags": [],
-            "snippet": "The asset data feedback survey pertaining to linear GIS extracted features.  ",
-            "thumbnail": "thumbnail/assetdatareview_line.png",
-            "documentation": null,
-            "extent": [],
-            "categories": [],
-            "spatialReference": null,
-            "accessInformation": null,
-            "classification": null,
-            "licenseInfo": null,
-            "culture": "en-us",
-            "properties": {
-              "connectVersion": "3.20.63"
-            },
-            "advancedSettings": null,
-            "url": null,
-            "proxyFilter": null,
-            "access": "shared",
-            "size": -1,
-            "subInfo": 0,
-            "appCategories": [],
-            "industries": [],
-            "languages": [],
-            "largeThumbnail": null,
-            "banner": null,
-            "screenshots": [],
-            "listed": false,
-            "ownerFolder": "664e5e58b8734cf3975517291cfd84ee",
-            "protected": false,
-            "numComments": 0,
-            "numRatings": 0,
-            "avgRating": 0,
-            "numViews": 3,
-            "scoreCompleteness": 61,
-            "groupDesignations": null,
-            "apiToken1ExpirationDate": -1,
-            "apiToken2ExpirationDate": -1,
-            "contentOrigin": "self",
-            "lastViewed": 1720209600000
-          },
-          "form": {
-            "layerName": "survey",
-            "portalUrl": "https://www.arcgis.com",
-            "questions": [],
-            "version": "3.19",
-            "themes": [
-              {
-                "id": null,
-                "name": "theme-color1",
-                "isEnabled": true,
-                "header": {
-                  "backgroundColor": "#31872E",
-                  "textColor": "#ffffff"
-                },
-                "form": {
-                  "backgroundColor": "#ffffff",
-                  "backgroundOpacity": 1,
-                  "textColor": "#505050",
-                  "primaryColor": "#31872E",
-                  "primaryTextColor": "#ffffff",
-                  "inputTextColor": "#505050",
-                  "inputBackgroundColor": "#ffffff"
-                },
-                "webpage": {
-                  "backgroundColor": "#B7DCC7"
-                }
-              }
-            ],
-            "locales": [
-              {
-                "code": "en-us",
-                "label": "English-US",
-                "isDefault": true
-              }
-            ],
-            "settings": {
-              "openStatusInfo": {
-                "status": "open",
-                "schedule": {
-                  "start": null,
-                  "end": null
-                },
-                "closedStatusContent": ""
-              },
-              "thankYouScreenContent": "",
-              "recordStartEndTime": {
-                "isEnabled": false,
-                "fieldInfos": []
-              },
-              "notificationsInfo": {},
-              "isVersionLocked": true,
-              "multiSubmissionInfo": {
-                "autoReload": -1,
-                "maxAllowed": 0,
-                "showSubmitAnotherTip": false,
-                "redirectUrl": ""
-              },
-              "draftInfo": {
-                "isEnabled": false
-              },
-              "captcha": {
-                "isEnabled": false,
-                "content": ""
-              }
-            },
-            "submit": {},
-            "header": {
-              "isVisible": true,
-              "content": ""
-            },
-            "subHeader": {
-              "isVisible": true,
-              "content": ""
-            },
-            "footer": {
-              "isVisible": true,
-              "content": ""
-            }
-          },
-          "report": {
-            "templateItems": []
-          },
-          "featureService": {
-            "source": {
-              "isNonHostedFeatureService": false,
-              "itemId": "",
-              "url": "",
-              "isView": false,
-              "isRelatedToFormItem": false
-            },
-            "fieldworker": {
-              "isView": true,
-              "isNonHostedFeatureService": false,
-              "itemId": "",
-              "url": "",
-              "isRelatedToFormItem": false
-            },
-            "stakeholder": {
-              "isView": true,
-              "isNonHostedFeatureService": false,
-              "itemId": "",
-              "url": "",
-              "isRelatedToFormItem": false
-            }
-          },
-          "value": "de8cb8448d344c29be5b408b9836f21a",
-          "label": "TxDOT Asset Data Feedback (linear)"
-        }
-      },
-      "id": "widget_57",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_2-POC_Demo_v3_GDB_4268",
-          "mainDataSourceId": "dataSource_2-POC_Demo_v3_GDB_4268",
-          "rootDataSourceId": "dataSource_2"
-        }
-      ]
-    },
-    "widget_59": {
-      "uri": "widgets/survey123/",
-      "version": "1.14.0",
-      "label": "Survey 7",
-      "config": {
-        "surveyItemId": "de8cb8448d344c29be5b408b9836f21a",
-        "portalUrl": "",
-        "embeds": [
-          "fullScreen",
-          "onSubmitted"
-        ],
-        "hides": [
-          "navbar",
-          "header",
-          "description",
-          "footer",
-          "theme"
-        ],
-        "mode": "new",
-        "activeLinkData": true,
-        "layerViewInfo": {
-          "dataSourceId": "dataSource_2-POC_Demo_v3_GDB_4268",
-          "mainDataSourceId": "dataSource_2-POC_Demo_v3_GDB_4268",
-          "rootDataSourceId": "dataSource_2"
-        },
-        "fieldQuestionMapping": [
-          {
-            "field": "Asset_Nm",
-            "question": "FeatureType"
-          },
-          {
-            "field": "Id",
-            "question": "FeatureUID"
-          },
-          {
-            "field": "geometry",
-            "question": "Location"
-          }
-        ],
-        "selectedSurvey": {
-          "id": "de8cb8448d344c29be5b408b9836f21a",
-          "owner": "jgraham_ss",
-          "title": "TxDOT Asset Data Feedback (linear)",
-          "created": 1719611195000,
-          "description": "\n<p style=' margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;'>This form is meant for DOT and Cyclomedia staff to submit feedback on asset data extraction projects.  </p>",
-          "thumbnail": "https://streetsmart.maps.arcgis.com/sharing/rest/content/items/de8cb8448d344c29be5b408b9836f21a/info/thumbnail/assetdatareview_line.png?token=3NKHt6i2urmWtqOuugvr9SJUkzM-c9R3fYs_5ZKl-RZSrZCX09HiEzy9taLYtk30NvRTPs44mlp9l0Kl3BcIRyn5JpZNd2xRa8DqQByfu3wYXZ1II81xPjrfe4B66Fp85AHU8fZGN5U0zHQXcfs904kh39vE29SNRQtrrFv3yx51UB7YQFKlloMIBl6oScR89TV1TEyyDyPQagDtzU9FmKrB0ODDw2XacuJrqhtzrT4.",
-          "snippet": "The asset data feedback survey pertaining to linear GIS extracted features.  ",
-          "formItemInfo": {
-            "typeKeywords": [
-              "Form",
-              "Survey123",
-              "Survey123 Connect",
-              "xForm"
-            ],
-            "id": "de8cb8448d344c29be5b408b9836f21a",
-            "owner": "jgraham_ss",
-            "created": 1719611195000,
-            "isOrgItem": true,
-            "modified": 1720211661000,
-            "guid": null,
-            "name": "assetdatareview_line.zip",
-            "title": "TxDOT Asset Data Feedback (linear)",
-            "type": "Form",
-            "description": "\n<p style=' margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;'>This form is meant for DOT and Cyclomedia staff to submit feedback on asset data extraction projects.  </p>",
-            "tags": [],
-            "snippet": "The asset data feedback survey pertaining to linear GIS extracted features.  ",
-            "thumbnail": "thumbnail/assetdatareview_line.png",
-            "documentation": null,
-            "extent": [],
-            "categories": [],
-            "spatialReference": null,
-            "accessInformation": null,
-            "classification": null,
-            "licenseInfo": null,
-            "culture": "en-us",
-            "properties": {
-              "connectVersion": "3.20.63"
-            },
-            "advancedSettings": null,
-            "url": null,
-            "proxyFilter": null,
-            "access": "shared",
-            "size": -1,
-            "subInfo": 0,
-            "appCategories": [],
-            "industries": [],
-            "languages": [],
-            "largeThumbnail": null,
-            "banner": null,
-            "screenshots": [],
-            "listed": false,
-            "ownerFolder": "664e5e58b8734cf3975517291cfd84ee",
-            "protected": false,
-            "numComments": 0,
-            "numRatings": 0,
-            "avgRating": 0,
-            "numViews": 3,
-            "scoreCompleteness": 61,
-            "groupDesignations": null,
-            "apiToken1ExpirationDate": -1,
-            "apiToken2ExpirationDate": -1,
-            "contentOrigin": "self",
-            "lastViewed": 1720209600000
-          },
-          "form": {
-            "layerName": "survey",
-            "portalUrl": "https://www.arcgis.com",
-            "questions": [],
-            "version": "3.19",
-            "themes": [
-              {
-                "id": null,
-                "name": "theme-color1",
-                "isEnabled": true,
-                "header": {
-                  "backgroundColor": "#31872E",
-                  "textColor": "#ffffff"
-                },
-                "form": {
-                  "backgroundColor": "#ffffff",
-                  "backgroundOpacity": 1,
-                  "textColor": "#505050",
-                  "primaryColor": "#31872E",
-                  "primaryTextColor": "#ffffff",
-                  "inputTextColor": "#505050",
-                  "inputBackgroundColor": "#ffffff"
-                },
-                "webpage": {
-                  "backgroundColor": "#B7DCC7"
-                }
-              }
-            ],
-            "locales": [
-              {
-                "code": "en-us",
-                "label": "English-US",
-                "isDefault": true
-              }
-            ],
-            "settings": {
-              "openStatusInfo": {
-                "status": "open",
-                "schedule": {
-                  "start": null,
-                  "end": null
-                },
-                "closedStatusContent": ""
-              },
-              "thankYouScreenContent": "",
-              "recordStartEndTime": {
-                "isEnabled": false,
-                "fieldInfos": []
-              },
-              "notificationsInfo": {},
-              "isVersionLocked": true,
-              "multiSubmissionInfo": {
-                "autoReload": -1,
-                "maxAllowed": 0,
-                "showSubmitAnotherTip": false,
-                "redirectUrl": ""
-              },
-              "draftInfo": {
-                "isEnabled": false
-              },
-              "captcha": {
-                "isEnabled": false,
-                "content": ""
-              }
-            },
-            "submit": {},
-            "header": {
-              "isVisible": true,
-              "content": ""
-            },
-            "subHeader": {
-              "isVisible": true,
-              "content": ""
-            },
-            "footer": {
-              "isVisible": true,
-              "content": ""
-            }
-          },
-          "report": {
-            "templateItems": []
-          },
-          "featureService": {
-            "source": {
-              "isNonHostedFeatureService": false,
-              "itemId": "",
-              "url": "",
-              "isView": false,
-              "isRelatedToFormItem": false
-            },
-            "fieldworker": {
-              "isView": true,
-              "isNonHostedFeatureService": false,
-              "itemId": "",
-              "url": "",
-              "isRelatedToFormItem": false
-            },
-            "stakeholder": {
-              "isView": true,
-              "isNonHostedFeatureService": false,
-              "itemId": "",
-              "url": "",
-              "isRelatedToFormItem": false
-            }
-          },
-          "value": "de8cb8448d344c29be5b408b9836f21a",
-          "label": "TxDOT Asset Data Feedback (linear)"
-        }
-      },
-      "id": "widget_59",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_2-POC_Demo_v3_GDB_4268",
-          "mainDataSourceId": "dataSource_2-POC_Demo_v3_GDB_4268",
-          "rootDataSourceId": "dataSource_2"
-        }
-      ]
-    },
-    "widget_60": {
-      "uri": "widgets/survey123/",
-      "version": "1.14.0",
-      "label": "Survey 8",
-      "config": {
-        "surveyItemId": "de8cb8448d344c29be5b408b9836f21a",
-        "portalUrl": "",
-        "embeds": [
-          "fullScreen",
-          "onSubmitted"
-        ],
-        "hides": [
-          "header",
-          "description",
-          "theme",
-          "footer",
-          "navbar"
-        ],
-        "mode": "new",
-        "activeLinkData": true,
-        "layerViewInfo": {
-          "dataSourceId": "dataSource_2-POC_Demo_v3_GDB_4268",
-          "mainDataSourceId": "dataSource_2-POC_Demo_v3_GDB_4268",
-          "rootDataSourceId": "dataSource_2"
-        },
-        "fieldQuestionMapping": [
-          {
-            "field": "Asset_Nm",
-            "question": "FeatureType"
-          },
-          {
-            "field": "Id",
-            "question": "FeatureUID"
-          },
-          {
-            "field": "geometry",
-            "question": "Location"
-          }
-        ],
-        "selectedSurvey": {
-          "id": "de8cb8448d344c29be5b408b9836f21a",
-          "owner": "jgraham_ss",
-          "title": "TxDOT Asset Data Feedback (linear)",
-          "created": 1719611195000,
-          "description": "\n<p style=' margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;'>This form is meant for DOT and Cyclomedia staff to submit feedback on asset data extraction projects.  </p>",
-          "thumbnail": "https://streetsmart.maps.arcgis.com/sharing/rest/content/items/de8cb8448d344c29be5b408b9836f21a/info/thumbnail/assetdatareview_line.png?token=3NKHt6i2urmWtqOuugvr9SJUkzM-c9R3fYs_5ZKl-RZSrZCX09HiEzy9taLYtk30NvRTPs44mlp9l0Kl3BcIRyn5JpZNd2xRa8DqQByfu3wYXZ1II81xPjrfe4B66Fp85AHU8fZGN5U0zHQXcfs904kh39vE29SNRQtrrFv3yx51UB7YQFKlloMIBl6oScR89TV1TEyyDyPQagDtzU9FmKrB0ODDw2XacuJrqhtzrT4.",
-          "snippet": "The asset data feedback survey pertaining to linear GIS extracted features.  ",
-          "formItemInfo": {
-            "typeKeywords": [
-              "Form",
-              "Survey123",
-              "Survey123 Connect",
-              "xForm"
-            ],
-            "id": "de8cb8448d344c29be5b408b9836f21a",
-            "owner": "jgraham_ss",
-            "created": 1719611195000,
-            "isOrgItem": true,
-            "modified": 1720211661000,
-            "guid": null,
-            "name": "assetdatareview_line.zip",
-            "title": "TxDOT Asset Data Feedback (linear)",
-            "type": "Form",
-            "description": "\n<p style=' margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;'>This form is meant for DOT and Cyclomedia staff to submit feedback on asset data extraction projects.  </p>",
-            "tags": [],
-            "snippet": "The asset data feedback survey pertaining to linear GIS extracted features.  ",
-            "thumbnail": "thumbnail/assetdatareview_line.png",
-            "documentation": null,
-            "extent": [],
-            "categories": [],
-            "spatialReference": null,
-            "accessInformation": null,
-            "classification": null,
-            "licenseInfo": null,
-            "culture": "en-us",
-            "properties": {
-              "connectVersion": "3.20.63"
-            },
-            "advancedSettings": null,
-            "url": null,
-            "proxyFilter": null,
-            "access": "shared",
-            "size": -1,
-            "subInfo": 0,
-            "appCategories": [],
-            "industries": [],
-            "languages": [],
-            "largeThumbnail": null,
-            "banner": null,
-            "screenshots": [],
-            "listed": false,
-            "ownerFolder": "664e5e58b8734cf3975517291cfd84ee",
-            "protected": false,
-            "numComments": 0,
-            "numRatings": 0,
-            "avgRating": 0,
-            "numViews": 3,
-            "scoreCompleteness": 61,
-            "groupDesignations": null,
-            "apiToken1ExpirationDate": -1,
-            "apiToken2ExpirationDate": -1,
-            "contentOrigin": "self",
-            "lastViewed": 1720209600000
-          },
-          "form": {
-            "layerName": "survey",
-            "portalUrl": "https://www.arcgis.com",
-            "questions": [],
-            "version": "3.19",
-            "themes": [
-              {
-                "id": null,
-                "name": "theme-color1",
-                "isEnabled": true,
-                "header": {
-                  "backgroundColor": "#31872E",
-                  "textColor": "#ffffff"
-                },
-                "form": {
-                  "backgroundColor": "#ffffff",
-                  "backgroundOpacity": 1,
-                  "textColor": "#505050",
-                  "primaryColor": "#31872E",
-                  "primaryTextColor": "#ffffff",
-                  "inputTextColor": "#505050",
-                  "inputBackgroundColor": "#ffffff"
-                },
-                "webpage": {
-                  "backgroundColor": "#B7DCC7"
-                }
-              }
-            ],
-            "locales": [
-              {
-                "code": "en-us",
-                "label": "English-US",
-                "isDefault": true
-              }
-            ],
-            "settings": {
-              "openStatusInfo": {
-                "status": "open",
-                "schedule": {
-                  "start": null,
-                  "end": null
-                },
-                "closedStatusContent": ""
-              },
-              "thankYouScreenContent": "",
-              "recordStartEndTime": {
-                "isEnabled": false,
-                "fieldInfos": []
-              },
-              "notificationsInfo": {},
-              "isVersionLocked": true,
-              "multiSubmissionInfo": {
-                "autoReload": -1,
-                "maxAllowed": 0,
-                "showSubmitAnotherTip": false,
-                "redirectUrl": ""
-              },
-              "draftInfo": {
-                "isEnabled": false
-              },
-              "captcha": {
-                "isEnabled": false,
-                "content": ""
-              }
-            },
-            "submit": {},
-            "header": {
-              "isVisible": true,
-              "content": ""
-            },
-            "subHeader": {
-              "isVisible": true,
-              "content": ""
-            },
-            "footer": {
-              "isVisible": true,
-              "content": ""
-            }
-          },
-          "report": {
-            "templateItems": []
-          },
-          "featureService": {
-            "source": {
-              "isNonHostedFeatureService": false,
-              "itemId": "",
-              "url": "",
-              "isView": false,
-              "isRelatedToFormItem": false
-            },
-            "fieldworker": {
-              "isView": true,
-              "isNonHostedFeatureService": false,
-              "itemId": "",
-              "url": "",
-              "isRelatedToFormItem": false
-            },
-            "stakeholder": {
-              "isView": true,
-              "isNonHostedFeatureService": false,
-              "itemId": "",
-              "url": "",
-              "isRelatedToFormItem": false
-            }
-          },
-          "value": "de8cb8448d344c29be5b408b9836f21a",
-          "label": "TxDOT Asset Data Feedback (linear)"
-        }
-      },
-      "id": "widget_60",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_2-POC_Demo_v3_GDB_4268",
-          "mainDataSourceId": "dataSource_2-POC_Demo_v3_GDB_4268",
-          "rootDataSourceId": "dataSource_2"
-        }
-      ]
-    },
-    "widget_61": {
-      "uri": "widgets/common/divider/",
-      "version": "1.14.0",
-      "label": "Divider 6",
-      "config": {
-        "direction": "Horizontal",
-        "strokeStyle": {
-          "type": "Style1",
-          "color": "#181818",
-          "size": "2px"
-        },
-        "pointStart": {
-          "pointStyle": "None",
-          "pointSize": 4
-        },
-        "pointEnd": {
-          "pointStyle": "None",
-          "pointSize": 4
-        },
-        "themeStyle": {
-          "quickStyleType": "None"
-        }
-      },
-      "id": "widget_61"
-    },
-    "widget_62": {
-      "uri": "widgets/common/divider/",
-      "version": "1.14.0",
-      "label": "Divider 7",
-      "config": {
-        "direction": "Horizontal",
-        "strokeStyle": {
-          "type": "Style1",
-          "color": "#181818",
-          "size": "2px"
-        },
-        "pointStart": {
-          "pointStyle": "None",
-          "pointSize": 4
-        },
-        "pointEnd": {
-          "pointStyle": "None",
-          "pointSize": 4
-        },
-        "themeStyle": {
-          "quickStyleType": "None"
-        }
-      },
-      "id": "widget_62"
-    },
-    "widget_63": {
-      "uri": "widgets/common/image/",
-      "version": "1.14.0",
-      "label": "Image 2",
-      "config": {
-        "functionConfig": {
-          "altText": "",
-          "toolTip": "",
-          "linkParam": {},
-          "scale": "Fit",
-          "imageParam": {
-            "url": "${appResourceUrl}/images/widget_66/1720211859305.png",
-            "originalUrl": "${appResourceUrl}/images/widget_66/1720211859305.png",
-            "fileName": "1720211859305.png",
-            "originalName": "txdot_EXB_FeedbackTab2.png",
-            "imgSourceType": "BY_UPLOAD",
-            "fileFormat": "image/png",
-            "originalId": "1720211859305",
-            "isUseCompress": false,
-            "originalWidth": 503,
-            "originalHeight": 60
-          },
-          "imageDisplayQualityMode": "ORIGINAL",
-          "imgSourceType": "",
-          "srcExpression": null,
-          "imageFillMode": "FIT"
-        },
-        "styleConfig": {}
-      },
-      "id": "widget_63"
-    },
-    "widget_64": {
-      "uri": "widgets/common/image/",
-      "version": "1.14.0",
-      "label": "Image 3",
-      "config": {
-        "functionConfig": {
-          "altText": "",
-          "toolTip": "",
-          "linkParam": {},
-          "scale": "Fit",
-          "imageParam": {
-            "url": "${appResourceUrl}/images/widget_66/1720211859305.png",
-            "originalUrl": "${appResourceUrl}/images/widget_66/1720211859305.png",
-            "fileName": "1720211859305.png",
-            "originalName": "txdot_EXB_FeedbackTab2.png",
-            "imgSourceType": "BY_UPLOAD",
-            "fileFormat": "image/png",
-            "originalId": "1720211859305",
-            "isUseCompress": false,
-            "originalWidth": 503,
-            "originalHeight": 60
-          },
-          "imageDisplayQualityMode": "ORIGINAL",
-          "imgSourceType": "",
-          "srcExpression": null,
-          "imageFillMode": "FIT"
-        },
-        "styleConfig": {}
-      },
-      "id": "widget_64"
-    },
-    "widget_65": {
-      "uri": "widgets/common/image/",
-      "version": "1.14.0",
-      "label": "Image 4",
-      "config": {
-        "functionConfig": {
-          "altText": "",
-          "toolTip": "",
-          "linkParam": {},
-          "scale": "Fit",
-          "imageParam": {
-            "url": "${appResourceUrl}/images/widget_66/1720211859305.png",
-            "originalUrl": "${appResourceUrl}/images/widget_66/1720211859305.png",
-            "fileName": "1720211859305.png",
-            "originalName": "txdot_EXB_FeedbackTab2.png",
-            "imgSourceType": "BY_UPLOAD",
-            "fileFormat": "image/png",
-            "originalId": "1720211859305",
-            "isUseCompress": false,
-            "originalWidth": 503,
-            "originalHeight": 60
-          },
-          "imageDisplayQualityMode": "ORIGINAL",
-          "imgSourceType": "",
-          "srcExpression": null,
-          "imageFillMode": "FIT"
-        },
-        "styleConfig": {}
-      },
-      "id": "widget_65"
-    },
-    "widget_66": {
-      "uri": "widgets/common/image/",
-      "version": "1.14.0",
-      "label": "Image 5",
-      "config": {
-        "functionConfig": {
-          "altText": "",
-          "toolTip": "",
-          "linkParam": {},
-          "scale": "Fit",
-          "imageParam": {
-            "url": "${appResourceUrl}/images/widget_66/1720211859305.png",
-            "originalUrl": "${appResourceUrl}/images/widget_66/1720211859305.png",
-            "fileName": "1720211859305.png",
-            "originalName": "txdot_EXB_FeedbackTab2.png",
-            "imgSourceType": "BY_UPLOAD",
-            "fileFormat": "image/png",
-            "originalId": "1720211859305",
-            "isUseCompress": false,
-            "originalWidth": 503,
-            "originalHeight": 60
-          },
-          "imageDisplayQualityMode": "ORIGINAL",
-          "imgSourceType": "",
-          "srcExpression": null,
-          "imageFillMode": "FIT"
-        },
-        "styleConfig": {}
-      },
-      "id": "widget_66"
     },
     "widget_202": {
       "uri": "widgets/common/embed/",
@@ -6001,7 +3386,7 @@
         "embedType": "code",
         "expression": "<p><br></p>",
         "enableLabel": false,
-        "embedCode": "<iframe frameborder=\"0\" style=\"overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px\" height=\"100%\" width=\"100%\"\nsrc=\"https://streetsmart.maps.arcgis.com/apps/dashboards/2b415d49e7974ce5aa49aba837cf37e0\"></iframe>"
+        "embedCode": "<iframe frameborder=\"0\" style=\"overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px\" height=\"100%\" width=\"100%\"\nsrc=\"https://streetsmart.maps.arcgis.com/apps/dashboards/0e5b0f90bbce4703b268b35359d44b0c\"></iframe>"
       },
       "id": "widget_202",
       "useDataSourcesEnabled": false,
@@ -6021,7 +3406,7 @@
           "anchor": "",
           "submenuMode": "dropdown",
           "textAlign": "center",
-          "gap": "0px",
+          "gap": "5px",
           "showIcon": true
         },
         "variant": {
@@ -7244,7 +4629,7 @@
       "version": "1.14.0",
       "label": "Text 88",
       "config": {
-        "text": "<p><strong style=\"font-size: 16px;\">Welcome to the RIVaL Data Collection Hub</strong><span style=\"font-size: 16px;\">!</span></p><p>Check out the content and links below for a detailed explanation of this project, the current status and more information about how you can access the data and imagery.</p>",
+        "text": "<p><strong style=\"font-size: 16px;\">Welcome to the KDOT Data Collection Hub</strong><span style=\"font-size: 16px;\">!</span></p><p>Check out the content and links below for a detailed explanation of this project, the current status and more information about how you can access the data and imagery.</p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -7270,16 +4655,16 @@
           "linkParam": {},
           "scale": "Fit",
           "imageParam": {
-            "url": "https://maps.txdot.gov/images/Apps/TxDOT/WHITE_FlyingTLOGO_CR.png",
-            "originalUrl": "https://maps.txdot.gov/images/Apps/TxDOT/WHITE_FlyingTLOGO_CR.png",
-            "fileName": "WHITE_FlyingTLOGO_CR.png",
-            "originalName": "WHITE_FlyingTLOGO_CR.png",
+            "url": "https://69express.ksdot.gov/wp-content/uploads/2023/02/KDOT-Logo_blue.png",
+            "originalUrl": "https://69express.ksdot.gov/wp-content/uploads/2023/02/KDOT-Logo_blue.png",
+            "fileName": "KDOT-Logo_blue.png",
+            "originalName": "KDOT-Logo_blue.png",
             "imgSourceType": "BY_URL"
           },
           "imageDisplayQualityMode": "ORIGINAL",
           "imgSourceType": "",
           "srcExpression": null,
-          "imageFillMode": "FIT"
+          "imageFillMode": "FILL"
         },
         "styleConfig": {}
       },
@@ -7296,16 +4681,11 @@
           "linkParam": {},
           "scale": "Fit",
           "imageParam": {
-            "url": "${appResourceUrl}/images/widget_221/1720389325297.png",
-            "originalUrl": "${appResourceUrl}/images/widget_221/1720389325297.png",
-            "fileName": "1720389325297.png",
-            "originalName": "Cyclomedia_RGB_White.png",
-            "imgSourceType": "BY_UPLOAD",
-            "fileFormat": "image/png",
-            "originalId": "1720389325297",
-            "isUseCompress": false,
-            "originalWidth": 2430,
-            "originalHeight": 399
+            "url": "https://static.esmartcity.es/media/2021/02/logotipo-cyclomedia.png",
+            "originalUrl": "https://static.esmartcity.es/media/2021/02/logotipo-cyclomedia.png",
+            "fileName": "logotipo-cyclomedia.png",
+            "originalName": "logotipo-cyclomedia.png",
+            "imgSourceType": "BY_URL"
           },
           "imageDisplayQualityMode": "ORIGINAL",
           "imgSourceType": "",
@@ -7315,37 +4695,6 @@
         "styleConfig": {}
       },
       "id": "widget_374"
-    },
-    "widget_375": {
-      "uri": "widgets/common/image/",
-      "version": "1.14.0",
-      "label": "Image 45",
-      "config": {
-        "functionConfig": {
-          "altText": "",
-          "toolTip": "",
-          "linkParam": {},
-          "scale": "Fit",
-          "imageParam": {
-            "url": "${appResourceUrl}/images/widget_375/1720407282336.png",
-            "originalUrl": "${appResourceUrl}/images/widget_375/1720407282336.png",
-            "fileName": "1720407282336.png",
-            "originalName": "Rival_DataCollectionHub_title.png",
-            "imgSourceType": "BY_UPLOAD",
-            "fileFormat": "image/png",
-            "originalId": "1720407282336",
-            "isUseCompress": false,
-            "originalWidth": 500,
-            "originalHeight": 50
-          },
-          "imageDisplayQualityMode": "ORIGINAL",
-          "imgSourceType": "",
-          "srcExpression": null,
-          "imageFillMode": "FIT"
-        },
-        "styleConfig": {}
-      },
-      "id": "widget_375"
     },
     "widget_433": {
       "uri": "widgets/layout/row/",
@@ -9589,38 +6938,108 @@
         }
       },
       "id": "widget_531"
+    },
+    "widget_532": {
+      "uri": "widgets/common/text/",
+      "version": "1.14.0",
+      "label": "Text 141",
+      "config": {
+        "text": "<p><strong style=\"font-size: 36px; font-family: Calibri; color: var(--light);\">KDOT Data Collection Hub</strong></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_532"
+    },
+    "widget_533": {
+      "uri": "widgets/layout/grid/",
+      "version": "1.14.0",
+      "label": "Grid",
+      "config": {},
+      "id": "widget_533",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_255"
+        }
+      }
+    },
+    "widget_534": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.14.0",
+      "label": "Map",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true,
+          "canBaseMap": true,
+          "canScaleBar": true,
+          "canLayers": true
+        },
+        "isUseCustomMapState": false,
+        "initialMapDataSourceID": "dataSource_4",
+        "initialMapState": null
+      },
+      "id": "widget_534",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_256"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_4",
+          "mainDataSourceId": "dataSource_4"
+        }
+      ]
+    },
+    "widget_535": {
+      "uri": "widgets/StreetSmart-ExB/",
+      "version": "1.13.0",
+      "config": {
+        "exampleConfigProperty": "test",
+        "token": "a2RvdF90ZXN0OiN1P0dNSmhkNT0oUGhiVGI=",
+        "locale": "en-US",
+        "atlasHost": "https://atlasapi.cyclomedia.com/api",
+        "agreement": true,
+        "measurement": "",
+        "overlay": "",
+        "navigation": true,
+        "username": "",
+        "units": "default",
+        "scale": "1130",
+        "toggleAll": false,
+        "overlays": true,
+        "showStreetName": false,
+        "saveMeasurements": true,
+        "timetravel": true,
+        "linkMapMove": false,
+        "allowEditing": false,
+        "buttonVisibility": {
+          "OVERLAYS": true,
+          "ELEVATION": true,
+          "REPORT_BLURRING": true,
+          "OPEN_OBLIQUE": true,
+          "OPEN_POINTCLOUD": true,
+          "MEASURE": true,
+          "SAVE_IMAGE": false,
+          "IMAGE_INFORMATION": true
+        },
+        "srs": "EPSG:6923",
+        "coverage": true,
+        "linkLayers": true
+      },
+      "id": "widget_535",
+      "useMapWidgetIds": [
+        "widget_534"
+      ]
     }
   },
   "widgetsManifest": {},
   "views": {
-    "view_4": {
-      "id": "view_4",
-      "label": "Number of Through Lanes",
-      "layout": {
-        "LARGE": "layout_15"
-      }
-    },
-    "view_5": {
-      "id": "view_5",
-      "label": "Outside Shoulder Width",
-      "layout": {
-        "LARGE": "layout_19"
-      }
-    },
-    "view_6": {
-      "id": "view_6",
-      "label": "Inside Shoulder Width",
-      "layout": {
-        "LARGE": "layout_21"
-      }
-    },
-    "view_7": {
-      "id": "view_7",
-      "label": "Maximum Speed Limit",
-      "layout": {
-        "LARGE": "layout_23"
-      }
-    },
     "view_8": {
       "id": "view_8",
       "label": "View",
@@ -9630,16 +7049,6 @@
     }
   },
   "sections": {
-    "section_1": {
-      "id": "section_1",
-      "label": "Metadata",
-      "views": [
-        "view_4",
-        "view_7",
-        "view_6",
-        "view_5"
-      ]
-    },
     "section_2": {
       "id": "section_2",
       "label": "Section",
@@ -9663,16 +7072,23 @@
       "sourceLabel": "TxDOT RIVaL POC Map",
       "itemId": "1b70886b36cf458389e6bcbe60e6689f",
       "portalUrl": "https://streetsmart.maps.arcgis.com"
+    },
+    "dataSource_3": {
+      "id": "dataSource_3",
+      "type": "WEB_MAP",
+      "sourceLabel": "K-58 Curve, Grade and Cross-Section",
+      "itemId": "a60f0a9cd3e2437ab84554b9ec19b6af",
+      "portalUrl": "https://streetsmart.maps.arcgis.com"
+    },
+    "dataSource_4": {
+      "id": "dataSource_4",
+      "type": "WEB_MAP",
+      "sourceLabel": "K-58 Curve, Grade and Cross-Section-NewViewer",
+      "itemId": "721f15494852488e9dba380b1ac84a50",
+      "portalUrl": "https://streetsmart.maps.arcgis.com"
     }
   },
-  "messageConfigs": {
-    "messageConfig_1": {
-      "id": "messageConfig_1",
-      "widgetId": "widget_5",
-      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
-      "actions": []
-    }
-  },
+  "messageConfigs": {},
   "attributes": {
     "portalUrl": "https://streetsmart.maps.arcgis.com",
     "favicon": {
@@ -9725,7 +7141,7 @@
       "page_4": []
     }
   ],
-  "timestamp": 1720706137478,
+  "timestamp": 1726756687514,
   "screenGroups": {},
   "screens": {},
   "footer": {
@@ -9744,6 +7160,6 @@
     "height": {
       "LARGE": 41
     },
-    "backgroundColor": "#0f385a"
+    "backgroundColor": "var(--secondary-300)"
   }
 }
